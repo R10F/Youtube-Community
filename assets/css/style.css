@@ -134,42 +134,58 @@
   padding: 1rem 1.5rem;
 }
 
-.header {
-  margin-left: 4rem;
+a {
+  text-decoration: none;
 }
 
-.header img {
-  /* margin: 75px 0 0 75px; */
+main img {
   max-width: 100%;
   height: auto;
 }
 
-.header .profil {
+#header {
+  display: grid;
+  border-top-width: 20px;
+  background-color: #f9f9f9;
+  /* min-height: 200em; */
+}
+
+.channel-header {
+  display: flex;
+  width: 100%;
+}
+
+.channel-header img {
   border-radius: 50%;
-  width: 80px;
-  height: auto;
-  margin: 1rem 0 0 5rem;
+  width: 75px;
+  height: 75px;
+  margin-left: 10em;
+  margin-top: 2em;
 }
 
-.content .header {
-  background-color: #ffffff;
-}
-
-.header p {
+.channel-header p {
   text-transform: capitalize;
-  margin-top: 3rem;
-  margin-left: 1rem;
+  margin-top: 2em;
+  margin-left: 1em;
   font-size: 25px;
 
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.header span {
+.channel-header span {
   display: block;
   font-size: 15px;
   color: #0000004d;
   font-weight: lighter;
-  font-family: "Roboto", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#verified {
+  width: 13px;
+  height: 13px;
+  margin-top: 3.7em;
+  margin-left: 10px;
+  opacity: 60%;
 }
 
 .btn {
@@ -183,40 +199,29 @@
   display: inline-block;
   font-size: 16px;
   margin-left: 50rem;
-  margin-top: 1.5rem;
+  margin-top: 3.5rem;
   cursor: pointer;
   text-transform: uppercase;
-}
-
-#verified {
-  width: 13px;
-  height: 13px;
-  margin-top: 10px;
-  margin-left: 5px;
-
-  opacity: 60%;
+  height: fit-content;
 }
 
 .menu {
+  display: flex;
+  flex-direction: row;
   text-transform: uppercase;
-  /* margin-top: 1rem; */
-  margin-left: 7rem;
+
+  margin-left: 8em;
   color: #909090;
   font-family: "Roboto", sans-serif;
-
-  /* text-align: center; */
 }
 
 .menu .search {
-  background-color: #ffffff;
-}
-
-a {
-  text-decoration: none;
+  background-color: #f9f9f9;
 }
 
 .menu a {
   color: #909090;
+  margin: 0 25px 0;
 }
 
 .menu a:hover {
@@ -233,156 +238,3 @@ a {
   cursor: pointer;
   text-align: left;
 }
-
-body .content #community {
-  background-color: #0000000d;
-  min-height: 50rem;
-}
-.card {
-  border: 2px solid #0000000d;
-  display: flex;
-  margin-left: 5rem;
-  position: relative;
-  width: 52rem;
-  top: 4.5rem;
-}
-
-.card2 {
-  top: 7rem;
-}
-
-.card .profil img {
-  border-radius: 50%;
-  position: absolute;
-  left: 1rem;
-  width: 45px;
-}
-
-.kalimat p {
-  text-transform: capitalize;
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
-  position: relative;
-  right: 1rem;
-  bottom: 2rem;
-}
-
-.card span {
-  display: inline;
-  font-size: 11.7px;
-  color: #0000004d;
-  font-weight: lighter;
-  font-family: "Roboto", sans-serif;
-}
-
-.card .kata {
-  display: block;
-
-  font-size: 15px;
-  color: #111111;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.thumbnail {
-  background-color: white;
-  margin-left: 5rem;
-  height: 145px;
-  width: 31rem;
-  position: relative;
-  padding-right: 15rem;
-  right: 5rem;
-  bottom: 2rem;
-}
-
-.thumbnail .vidlength {
-  background-color: black;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  padding: 0 5px;
-  position: relative;
-  width: max-content;
-  height: max-content;
-  bottom: 4.5rem;
-  left: 10rem;
-}
-
-.thumbnail .vidlength2 {
-  left: 11.5rem;
-}
-
-.thumbnail a h4 {
-  color: #212121;
-  font-weight: normal;
-  font-size: 16px;
-  position: relative;
-  bottom: 13rem;
-  left: 14rem;
-
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.thumbnail a span {
-  text-transform: capitalize;
-  color: #0000004d;
-  margin-left: 0.5rem;
-  font-size: 13px;
-  font-family: arial;
-  position: relative;
-  bottom: 15rem;
-  left: 13.6rem;
-}
-
-.thumbnail a p {
-  font-size: 10.8px;
-  margin-left: 0.5rem;
-  /* word-spacing: 5px; */
-  color: #0000004d;
-  font-family: "Roboto", sans-serif;
-  /* display: flex; */
-  bottom: 17.5rem;
-  left: 13.5rem;
-  word-break: break-all;
-  width: fit-content;
-}
-
-.thumbnail img {
-  width: 200px;
-  height: 125px;
-  padding-top: 0.5rem;
-  padding-left: 0.5rem;
-  position: relative;
-}
-
-.thumbnail #verified {
-  width: 10px;
-  height: 10px;
-  left: -1%;
-}
-
-.tombol {
-  display: flex;
-  /* justify-content: space-between; */
-}
-
-.tombol a {
-  display: inline-flex;
-  align-items: center;
-  position: relative;
-  color: #000000;
-  right: 0.5rem;
-  bottom: 1rem;
-  font-size: 0.75rem;
-  padding: 0 0.45rem;
-}
-
-.tombol img {
-  width: 15px;
-  height: 15px;
-  padding-right: 0.5rem;
-}
-
-/* tr,
-td {
-  border: 1px solid black;
-} */
