@@ -242,16 +242,17 @@ main img {
 #community {
   background-color: #0000000d;
   padding-top: 3em;
+  padding-bottom: 7em;
 }
 
 .card {
   border: 2px solid #0000000d;
   display: flex;
   margin: 1em 0 2em 8em;
-  padding-right: 2em;
+
   padding-bottom: 2em;
   position: relative;
-  width: 55em;
+  width: 57em;
   height: fit-content;
 }
 
@@ -358,21 +359,21 @@ main img {
 
 .tombol {
   display: flex;
-  /* justify-content: space-between; */
-}
 
-.tombol {
-  display: flex;
   /* justify-content: space-between; */
 }
 
 .tombol a {
   display: inline-flex;
+  width: 2.5em;
   align-items: center;
   position: relative;
+  text-align: center;
+  height: fit-content;
   color: #000000;
-  right: 0.5rem;
-  bottom: 1rem;
+  float: left;
+  right: 75em;
+  top: 13rem;
   font-size: 0.75rem;
   padding: 0 0.45rem;
 }
@@ -380,5 +381,5 @@ main img {
 .tombol img {
   width: 15px;
   height: 15px;
-  padding-right: 0.5rem;
+  padding-right: 0.45rem;
 }
