@@ -238,3 +238,147 @@ main img {
   cursor: pointer;
   text-align: left;
 }
+
+#community {
+  background-color: #0000000d;
+  padding-top: 3em;
+}
+
+.card {
+  border: 2px solid #0000000d;
+  display: flex;
+  margin: 1em 0 2em 8em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  position: relative;
+  width: 55em;
+  height: fit-content;
+}
+
+.card .profil img {
+  border-radius: 50%;
+  position: absolute;
+  left: 1rem;
+  margin-top: 1em;
+  width: 45px;
+}
+
+.kalimat p {
+  text-transform: capitalize;
+  font-size: 16px;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5em;
+}
+
+.kalimat span {
+  display: inline;
+  font-size: 11.7px;
+  color: #0000004d;
+  position: relative;
+  font-weight: lighter;
+  font-family: "Roboto", sans-serif;
+}
+
+.kalimat .kata {
+  display: block;
+  font-size: 15px;
+  color: #111111;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.thumbnail {
+  background-color: white;
+  width: 50.5em;
+  height: 8em;
+  margin: 0 5em;
+}
+
+.thumbnail img {
+  width: 200px;
+  height: auto;
+  margin: 0.5em;
+}
+
+.thumbnail .vidlength {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  padding: 0 5px;
+  position: absolute;
+  align-items: center;
+  width: fit-content;
+  height: 17px;
+  bottom: 2.5rem;
+  right: 39.5rem;
+}
+
+.thumbnail a h4 {
+  color: #212121;
+  font-weight: normal;
+  font-size: 16px;
+  position: relative;
+  bottom: 9rem;
+  left: 14rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.thumbnail a span {
+  display: flex;
+  text-transform: capitalize;
+  color: #0000004d;
+  margin-left: 0.5rem;
+  font-size: 13px;
+  font-family: arial;
+  position: relative;
+  bottom: 10rem;
+  left: 13.6rem;
+  font-weight: lighter;
+}
+
+.thumbnail #verified {
+  position: relative;
+  bottom: 3.5em;
+  width: 12px;
+  height: 12px;
+}
+
+.thumbnail a p {
+  font-size: 13px;
+  margin-left: 15.5rem;
+  display: flex;
+  width: 48em;
+  position: relative;
+  bottom: 17em;
+  right: 2em;
+  color: #0000004d;
+  font-family: "Roboto", sans-serif;
+}
+
+.tombol {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.tombol {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.tombol a {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  color: #000000;
+  right: 0.5rem;
+  bottom: 1rem;
+  font-size: 0.75rem;
+  padding: 0 0.45rem;
+}
+
+.tombol img {
+  width: 15px;
+  height: 15px;
+  padding-right: 0.5rem;
+}
