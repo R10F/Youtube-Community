@@ -223,6 +223,7 @@ main img {
 .menu a {
   color: #909090;
   margin: 0 25px 0;
+  /* border: 2px solid; */
 }
 
 .menu a:hover {
@@ -232,12 +233,15 @@ main img {
 .search {
   border: none;
   border-bottom: 1px solid black;
+  padding-left: 1em;
 }
 
-.bi {
-  font-size: 20px;
-  cursor: pointer;
-  text-align: left;
+.menu .yt-icon {
+  pointer-events: none;
+  display: block;
+  width: 25px;
+  height: 25px;
+  opacity: 0.8;
 }
 
 #community {
