@@ -364,23 +364,18 @@ main img {
 
 .tombol {
   display: flex;
-
   /* justify-content: space-between; */
 }
 
 .tombol a {
   display: inline-flex;
-  width: 2.5em;
   align-items: center;
   position: relative;
-  text-align: center;
-  height: fit-content;
   color: #000000;
-  float: left;
-  right: 75em;
-  top: 13rem;
+  right: 0.5rem;
+  bottom: 11.5rem;
   font-size: 0.75rem;
-  padding: 0 0.45rem;
+  padding: 0 0.2rem;
 }
 
 .tombol img {
